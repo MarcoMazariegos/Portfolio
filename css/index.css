@@ -246,7 +246,7 @@ section{
     height: 125px;
     margin: auto;
 }
-@media (max-width: 414px){
+@media (max-width: 425px){
     .presentacion{
         width: 100%;
         height: auto;
