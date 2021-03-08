@@ -41,7 +41,7 @@ footer h2{
     font-size: 15px;
     padding-left: 44.5%;
 }
-@media (max-width:425px){
+@media (max-width:625px){
     footer{
         width: 100%;
         height: auto;

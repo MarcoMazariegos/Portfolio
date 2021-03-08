@@ -49,7 +49,7 @@ nav ul a:hover{
 .cerrar{
     display:none;
 }
-@media(max-width:425px){
+@media(max-width:625px){
     header{
         width: 100%;
         height: 110px;
