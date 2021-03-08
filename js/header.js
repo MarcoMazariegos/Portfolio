@@ -5,6 +5,7 @@ let cerrar = document.querySelector(".cerrar");
 let avatar1 = document.getElementById("avatar1");
 let anim1 = document.querySelector(".signos");
 let anim2 = document.querySelector(".signos2");
+let presentacion = document.querySelector(".presentacion");
 
 menu.addEventListener("click", ()=>{
     
@@ -14,6 +15,8 @@ menu.addEventListener("click", ()=>{
     avatar1.style.display = "none";
     anim1.style.display = "none";
     anim2.style.display = "none";
+    presentacion.style.height = "420px";
+
 });
 
 cerrar.addEventListener("click", ()=>{
@@ -23,4 +26,5 @@ cerrar.addEventListener("click", ()=>{
     avatar1.style.display = "block";
     anim1.style.display = "block";
     anim2.style.display = "block";
+    presentacion.style.height = "auto";
 });

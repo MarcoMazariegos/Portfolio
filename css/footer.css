@@ -8,15 +8,11 @@ footer{
     height: 140px;
     background-color: black;
 }
-.caja_footer{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-}
+
 .ig{
     width: 35px;
-    margin-left: 535px;
-    margin-top: 15px;
+    margin-left: 45%;
+    margin-top: 5px;
 }
 .ig:hover{
     transform: rotate(45deg);
@@ -24,48 +20,41 @@ footer{
 .gh{
     width: 35px;
     margin-left: 40px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .gh:hover{
     transform: rotate(45deg);
 }
-.caja_footer h1{
+footer h1{
     color: white;
     font-family: var(--fuente);
     padding-top: 5px;
-    padding-left: 510px;
+    padding-left: 45%;
     padding-bottom: 5px;
     font-size: 25px;
-    border-bottom: 2px solid white ;
 }
-.caja_footer h2{
+footer h2{
     color: white;
     font-family: var(--fuente);
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 15px;
-    padding-left: 505px;
+    padding-left: 44.5%;
 }
-@media (max-width:360px){
+@media (max-width:414px){
     footer{
         width: 100%;
         height: auto;
     }
-    .caja_footer{
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
     .ig{
-        margin-left: 33%;
+        margin-left: 35%;
     }
-    .caja_footer h1{
-        padding-left: 33%;
-        font-size: 18px;
-        border-bottom: 1px solid white ;
+    footer h1{
+        padding-left: 35%;
+        font-size: 18px;   
     }
-    .caja_footer h2{
+    footer h2{
         font-size: 15px;
-        padding-left: 26%;
+        padding-left: 28%;
     }
 }
