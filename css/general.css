@@ -1,0 +1,8 @@
+   :root{
+       --color-header:#333333;
+       --color-footer: #706c61;
+       --color-index: #e1f4f3;
+       --color-fondo: #ffffff;
+       --negro: black;
+       --fuente:'Fira Sans Extra Condensed', sans-serif;
+   }

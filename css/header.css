@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 260px;
+    background-color: var(--color-header);
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 175px;
+    display: flex;
+    margin:auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    width: 400px;
+    margin: auto;
+    margin-top: 5px;
+}
+nav ul{
+    margin-left: 10px;
+    width: 90px;
+    padding-left: 15px;
+    padding-top: 2.5px;
+    font-size: 17px;
+    font-family: var(--fuente);
+}
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-fondo);
+}
+nav ul:hover{
+    background-color: var(--color-footer);
+    border-radius: 2px;
+}
+nav ul a:hover{
+    color: black;
+}
+.hamburguesa{
+    display:none;
+}
+.cerrar{
+    display:none;
+}
+@media(max-width:360px){
+    header{
+        width: 100%;
+        height: 110px;
+        background-color: var(--color-header);
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        width: 80px;
+        height: 75px;
+        margin:0;
+        margin-left: 15px;
+        margin-top:15px;
+    }
+    .hamburguesa{
+        display: block;
+        width: 45px;
+        height: 45px;
+        margin-left: 50%;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    nav{
+        display: none;
+        flex-direction: column;
+        height: 640px;
+        width: 100%;
+        margin: auto;
+        background-color: var(--color-header);
+        margin-top: 0px;
+        position: absolute;
+    }
+    .cerrar{
+        display: block;
+        width: 35px;
+        float: right;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    nav ul{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 80%;
+        padding-left: 5px;
+        padding-top: 3px;
+        font-size: 19px;
+    }
+    nav ul a{
+        list-style: none;
+        text-decoration: none;
+        color: var(--color-fondo);
+    }
+    nav ul:hover{
+        background-color: var(--color-footer);
+        border-radius: 2px;
+    }
+    nav ul a:hover{
+        color: black;
+    }
+}
