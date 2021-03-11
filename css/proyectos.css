@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.contenedorEleccion{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.paginas, .java, .aplicaciones{
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    font-family: var(--fuente);
+    text-align: center;
+    font-size: 25px;
+}
+.paginas img, .java img, .aplicaciones img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/********* estilos de javascript Paginas****/
+.contenedor2, .contenedor3, .contenedor4{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.atras, .atras2, .atras3{
+    width:40px;
+    margin-left: 10%;
+    margin-top: 50px; 
+    cursor: pointer;
+    display: block;
+}
+.atras:hover,.atras2:hover,.atras3:hover {
+    transform: scale(1.2);
+}
+.pagina1, .pagina2, .pagina3,
+.programa1, .programa2, .programa3,
+.app1, .app2, .app3{
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    font-family: var(--fuente);
+    font-size: 20px;
+    text-align: center;
+}
+.pagina1 a, .pagina2 a, .pagina3 a,
+.programa1 a, .programa2 a, .programa3 a,
+.app1 a, .app2 a, .app3 a{
+    color: black;
+}
+#pages1, #pages2, #pages3,
+#programa1, #programa2, #programa3,
+#app1, #app2, #app3{
+    width: 100%;
+    box-shadow: 1px 1px 12px black;
+    cursor: pointer;
+}
+.paginas:hover, .java:hover, .aplicaciones:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 625px){
+    
+    .contenedorEleccion{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .paginas, .java, .aplicaciones{
+        width: 80%;
+        height: auto;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .paginas img, .java img, .aplicaciones img{
+        width: 100%;
+    }
+    
+    /********* estilos de javascript Paginas****/
+    .contenedor2, .contenedor3, .contenedor4{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .atras, .atras2, .atras3{
+        width:35px;
+        margin-left: 10%;
+        margin-top: 30px; 
+    }
+    .atras:hover,.atras2:hover,.atras3:hover {
+        transform: scale(1.2);
+    }
+    .pagina1, .pagina2, .pagina3,
+    .programa1, .programa2, .programa3,
+    .app1, .app2, .app3{
+        width: 80%;
+        height: auto;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    .pagina1 a, .pagina2 a, .pagina3 a,
+    .programa1 a, .programa2 a, .programa3 a,
+    .app1 a, .app2 a, .app3 a{
+        color: black;
+    }
+    #pages1, #pages2, #pages3,
+    #programa1, #programa2, #programa3,
+    #app1, #app2, #app3{
+        width: 100%;
+        box-shadow: 1px 1px 9px black;
+        cursor: pointer;
+    }
+    .paginas:hover, .java:hover, .aplicaciones:hover{
+        transform: scale(1.05);
+    }
+    
+    }
