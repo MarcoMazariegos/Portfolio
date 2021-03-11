@@ -66,3 +66,13 @@ button{
     margin-left: 165px;
     margin-top: 15px;
 }
+.chat-box{
+    width: 60px;
+    top: 88%;
+    margin-left: 85%;
+    position: fixed;
+    cursor: pointer;
+}
+.chat-box:hover{
+    transform: scale(1.1);
+}

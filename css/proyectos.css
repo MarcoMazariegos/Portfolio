@@ -9,7 +9,7 @@ section{
     height: auto;
 }
 .contenedorEleccion{
-    width: 100%;
+    max-width: 1200px;
     height: auto;
     margin: auto;
     margin-top: 50px;
@@ -32,7 +32,7 @@ section{
 
 /********* estilos de javascript Paginas****/
 .contenedor2, .contenedor3, .contenedor4{
-    width: 100%;
+    max-width: 1200px;
     height: auto;
     margin: auto;
     display: flex;
@@ -54,7 +54,7 @@ section{
 .programa1, .programa2, .programa3,
 .app1, .app2, .app3{
     width: 30%;
-    height: 200px;
+    height: 300px;
     margin: auto;
     font-family: var(--fuente);
     font-size: 20px;
