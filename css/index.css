@@ -201,7 +201,7 @@ section{
     cursor: pointer;
 }
 .responsive{
-    width: 70%;
+    max-width: 800px;
     height: 500px;
     margin: auto;
     margin-bottom: 45px;

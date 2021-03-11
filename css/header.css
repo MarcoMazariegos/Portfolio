@@ -14,6 +14,7 @@ header{
     width: 175px;
     display: flex;
     margin:auto;
+    cursor: pointer;
 }
 nav{
     display: flex;

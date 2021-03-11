@@ -5,56 +5,55 @@
 }
 footer{
     width: 100%;
-    height: 140px;
+    height: 70px;
     background-color: black;
 }
-
-.ig{
-    width: 35px;
-    margin-left: 46.5%;
-    margin-top: 5px;
+.caja-footer{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
 }
-.ig:hover{
-    transform: rotate(45deg);
+.correo{
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 22px;
+}
+.caja-footer p{
+    color: white;
+    font-family: var(--fuente);
+    font-size: 15px;
+}
+.redes{
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+.ig{
+    width:35px;
+    right: 0;
+}
+.ig img{
+    width: 35px;
+    
+}
+.ig img:hover{
+    transform: scale(1.2);
 }
 .gh{
     width: 35px;
-    margin-left: 40px;
-    margin-top: 5px;
+    margin-left: 1rem;
 }
-.gh:hover{
-    transform: rotate(45deg);
+.gh img{
+    width: 35px;
+    
 }
-footer h1{
-    color: white;
-    font-family: var(--fuente);
-    padding-top: 5px;
-    padding-left: 45%;
-    padding-bottom: 5px;
-    font-size: 25px;
-}
-footer h2{
-    color: white;
-    font-family: var(--fuente);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
-    padding-left: 44.5%;
+.gh img:hover{
+    transform: scale(1.2);
 }
 @media (max-width:625px){
-    footer{
-        width: 100%;
-        height: auto;
-    }
-    .ig{
-        margin-left: 35%;
-    }
-    footer h1{
-        padding-left: 35%;
-        font-size: 18px;   
-    }
-    footer h2{
-        font-size: 15px;
-        padding-left: 28%;
-    }
+    
 }
